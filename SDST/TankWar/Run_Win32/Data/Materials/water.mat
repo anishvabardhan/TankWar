@@ -1,0 +1,5 @@
+<material id="water">
+	
+	<shader src="Data/Shaders/water.shader" />
+	<texture bind="0" src="Data/Images/caustic_depth_03.gif" />
+</material>

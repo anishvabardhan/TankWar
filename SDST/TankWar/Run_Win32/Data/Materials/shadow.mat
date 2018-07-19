@@ -1,0 +1,4 @@
+<material id="shadowMat">
+	
+	<shader src="Data/Shaders/shadow.shader" />
+</material>

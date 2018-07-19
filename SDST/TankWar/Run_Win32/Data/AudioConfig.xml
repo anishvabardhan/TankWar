@@ -1,0 +1,7 @@
+<AudioGroups>
+
+	<AudioGroup id="player.shoot">
+		<AudioSource>Data/Audio/
+	</AudioGroup>
+
+</AudioGroups>

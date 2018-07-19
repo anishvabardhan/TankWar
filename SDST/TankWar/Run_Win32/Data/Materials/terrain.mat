@@ -1,0 +1,6 @@
+<material id="terrain">
+	
+	<shader src="Data/Shaders/terrain.shader" />
+	<texture bind="0" src="Data/Images/Terrain/grass_green_d.jpg" />
+	<texture bind="1" src="Data/Images/Terrain/grass_green_n.jpg" />
+</material>

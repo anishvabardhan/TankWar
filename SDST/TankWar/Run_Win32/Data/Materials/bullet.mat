@@ -1,0 +1,6 @@
+<material id="bullet">
+	
+	<shader src="Data/Shaders/multilight.shader" />
+	<texture bind="0" src="Data/Images/Cobble/stone_diffuse.png" />
+	<texture bind="1" src="Data/Images/Cobble/stone_normal.png" />
+</material>
