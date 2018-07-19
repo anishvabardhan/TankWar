@@ -175,8 +175,8 @@ void Renderer::PostStartup()
 	fogParams.FOG_COLOR = Rgba::WHITE.GetAsVector();
 	fogParams.FOG_FAR_FACTOR = 0.75f;
 	fogParams.FOG_NEAR_FACTOR = 0.001f;
-	fogParams.FOG_FAR_PLANE = 20.f;
-	fogParams.FOG_NEAR_PLANE = 18.f;
+	fogParams.FOG_FAR_PLANE = 100.f;
+	fogParams.FOG_NEAR_PLANE = 3.f;
 	m_fogBuffer = new UniformBuffer();
 	m_fogBuffer->Set<FogBlock>(fogParams);
 	m_fogBuffer->UpdateGPU();
